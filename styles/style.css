@@ -43,7 +43,7 @@ Media Queries
 -------------*/
 @media only screen and (min-width: 688px) and (max-width: 992px){
     .carousel-caption{
-        bottom: 35px;
+        bottom: 10px;
     }
     .carousel-caption h1{
         font-size: 35px;

@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+section{
+    margin-bottom: 100px;
+}
 .carousel-item::before{
     content: "";
     display: block;
@@ -24,4 +27,10 @@
 }
 .carousel-caption p{
     font-size: 21px;
+}
+.course-title h1{
+
+}
+.course-title p{
+
 }

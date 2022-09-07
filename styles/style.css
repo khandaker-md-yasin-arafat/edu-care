@@ -38,3 +38,18 @@ Carousel item CSS
 .carousel-caption p{
     font-size: 21px;
 }
+/* ----------
+Media Queries 
+-------------*/
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .carousel-caption{
+        bottom: 35px;
+    }
+    .carousel-caption h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+}

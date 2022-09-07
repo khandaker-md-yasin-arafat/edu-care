@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h1{
+    font-size: 75px;
+    font-weight: bold;
+}
+.carousel-caption p{
+    font-size: 21px;
+}

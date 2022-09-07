@@ -8,6 +8,10 @@ Common CSS
 section{
     margin-bottom: 100px;
 }
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
 /* ---------------
 Carousel item CSS 
 --------------- */

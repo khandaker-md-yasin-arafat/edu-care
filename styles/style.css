@@ -1,3 +1,6 @@
+/* --------
+Common CSS
+-------- */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +8,9 @@
 section{
     margin-bottom: 100px;
 }
+/* ---------------
+Carousel item CSS 
+--------------- */
 .carousel-item::before{
     content: "";
     display: block;
@@ -17,7 +23,7 @@ section{
     opacity: 0.6;
 }
 .carousel-caption{
-    bottom: 180px;
+    bottom: 150px;
     padding-left: 100px;
     padding-right: 100px;
 }
